@@ -3,8 +3,8 @@ const Tx = require("ethereumjs-tx");
 const web3 = new Web3("https://polygon-mumbai.infura.io/v3/cd6bdc22f7244770a4596f56408e361d")
 const factroAbi = require("./abi");
 // const privatekey = Buffer.from(String("14a68b30afe87e3e482fc4042c8c6343a90c55d883182303205c1c080b474dfe3c7558ac22fbccfdb070cb097f30eea8f322f506491bd4c54358f12279b101b61c"), 'hex')
-const privKey = '0xbd7788fda028477621f4a51b8ee5d8795c58084b6d4e1b1662857fc5a51d8e55';
-var privatekey = Buffer.from("bd7788fda028477621f4a51b8ee5d8795c58084b6d4e1b1662857fc5a51d8e55", 'hex')
+const privKey = '';
+var privatekey = Buffer.from("", 'hex')
 
 const factory__add = "0x2e15B44DC11E108B4E5796628305a6CBF2DBDAf4"
 console.log("as", factory__add)
